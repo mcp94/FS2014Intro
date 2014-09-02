@@ -1,0 +1,17 @@
+import UIKit
+
+class Car: NSObject{
+    var make = ""
+    var model = ""
+    var year = 1885
+    var color = "Black"
+    
+    init(make inMake:String,model inModel:String, year inYear:Int, color inColor:String){
+        make = inMake
+        model = inModel
+        year = inYear
+        color = inColor
+        super.init()
+    }
+    
+}
